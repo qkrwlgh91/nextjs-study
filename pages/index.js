@@ -41,7 +41,7 @@ export async function getStaticProps(context) {
     props: {
       products: data.products
     },
-    revalidate: 60,
+    revalidate: 10,
     notFound: false
   }
 }
