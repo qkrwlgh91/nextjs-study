@@ -7,7 +7,7 @@ function HomePage() {
     return (
         <Fragment>
             <Hero />
-            <FeaturedPosts />
+            {/* <FeaturedPosts /> */}
         </Fragment>
     )
 }
