@@ -20,8 +20,6 @@ function PostContent(props) {
         p(paragraph) {
             const { node } = paragraph;
 
-            console.log("node : ", node)
-
             if (node.children[0].tagName === 'img') {
                 const image = node.children[0];
 
