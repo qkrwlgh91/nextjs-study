@@ -10,8 +10,11 @@ function HomePage(props) {
     return (
         <Fragment>
             <Head>
-                <tile>My Blog</tile>
-                <meta name='description' content='I post about programming and web development.' />
+                <title>My Blog</title>
+                <meta
+                    name='description'
+                    content='I post about programming and web development.'
+                />
             </Head>
             <Hero />
             <FeaturedPosts posts={props.posts} />
